@@ -2,9 +2,9 @@
   width: 800px;
   margin: 0 auto;
   box-shadow: 9px 0 15px -4px #d1d1d1, -9px 0 8px -4px #d1d1d1;
-  text-align: center;
   padding-left: 50px;
   padding-right: 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -13,6 +13,8 @@ p {
 
 li {
   color: #707070;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 h1 {
@@ -24,5 +26,31 @@ h2 {
 }
 
 h3 {
-  #474747;
+  color: #474747;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+header { 
+  text-align: center; 
+
+
+}
+
+.rating > span {
+  color: #F4B400;
+  font-size: 25px;
+
+}
+footer {
+text-align: center;  
+}
+
+.rating {
+  text-align: center;
 }
